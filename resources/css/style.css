@@ -26,12 +26,13 @@ html {
 /*----------------------------------------------------------------------*/
 
 header {
-  height: 10vh;
+  display: block;
 }
 
 header h5 {
-  padding-left: 25px;
-  padding-top: 40px;
+  margin-bottom: 5rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
   letter-spacing: -2px;
   text-transform: uppercase;
 }
@@ -41,38 +42,30 @@ header h5 {
 /*----------------------------------------------------------------------*/
 
 .kiri {
-  height: 60vh;
-  padding: 25px;
-  display: grid;
-  align-content: center;
+  padding: 1rem;
 }
 
 .kiri img {
   width: 100%;
   height: auto;
-  display: block;
-}
-
-.kanan {
-  height: 60vh;
-  display: grid;
-  align-content: space-around;
 }
 
 .kanan h1 {
   margin: 0;
   font-size: 250%;
+  margin: 2rem 0;
 }
 
 .kanan p {
   font-size: 120%;
   line-height: 150%;
-  padding-right: 30%;
+  padding-right: 4rem;
+  margin-bottom: 5rem;
 }
 
 .homepage:link,
 .homepage:visited {
-  padding: 4% 7%;
+  padding: 1rem 2rem;
   font-size: 80%;
   color: #fff;
   text-decoration: none;
@@ -91,10 +84,11 @@ header h5 {
 
 footer {
   clear: both;
+  margin-bottom: 2rem;
 }
 
 .master-footer {
-  height: 25vh;
+  height: 15rem;
   display: grid;
   justify-items: center;
 }
