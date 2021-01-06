@@ -1,0 +1,111 @@
+/*----------------------------------------------------------------------*/
+/*  BASIC SETUP  */
+/*----------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  font-family: Space Mono;
+  font-size: 20px;
+  font-weight: 300;
+  color: #555;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*----------------------------------------------------------------------*/
+/*  header  */
+/*----------------------------------------------------------------------*/
+
+header {
+  height: 10vh;
+}
+
+header h5 {
+  padding-left: 25px;
+  padding-top: 40px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+/*----------------------------------------------------------------------*/
+/*  main  */
+/*----------------------------------------------------------------------*/
+
+.kiri {
+  height: 60vh;
+  padding: 25px;
+  display: grid;
+  align-content: center;
+}
+
+.kiri img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.kanan {
+  height: 60vh;
+  display: grid;
+  align-content: space-around;
+}
+
+.kanan h1 {
+  margin: 0;
+  font-size: 250%;
+}
+
+.kanan p {
+  font-size: 120%;
+  line-height: 150%;
+  padding-right: 30%;
+}
+
+.homepage:link,
+.homepage:visited {
+  padding: 4% 7%;
+  font-size: 80%;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #000;
+}
+
+.homepage:hover,
+.homepage:active {
+  background-color: #333;
+}
+
+/*----------------------------------------------------------------------*/
+/*  footer  */
+/*----------------------------------------------------------------------*/
+
+footer {
+  clear: both;
+}
+
+.master-footer {
+  height: 25vh;
+  display: grid;
+  justify-items: center;
+}
+
+.item {
+  align-self: end;
+  font-size: 90%;
+  letter-spacing: -1px;
+}
+
+.item a {
+  color: #000;
+  text-decoration: none;
+}
