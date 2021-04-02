@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="resources/css/grid.css" />
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
@@ -14,42 +11,34 @@
     <title>Error Page</title>
   </head>
   <body>
-    <header>
-      <div class="row">
-        <h5>404 not found</h5>
+    <div class="container clearfix">
+      <div class="heading-title">
+        <h2>404 not found</h2>
       </div>
-    </header>
-    <main>
-      <section>
-        <div class="row">
-          <div class="col span_1_of_2">
-            <figure class="kiri">
-              <img src="vendor/img/Scarecrow.png" alt="404" />
-            </figure>
-          </div>
-          <div class="col span_1_of_2">
-            <div class="kanan">
-              <h1>I have bad news for you</h1>
-              <p>
-                The page you are looking for might be removed or is temporarily
-                unavailable
-              </p>
-              <a href="#" class="homepage">Back to homepage</a>
-            </div>
-          </div>
+
+      <main class="clearfix">
+        <figure class="span-1-of-2 img404">
+          <img src="src/img/Scarecrow.png" alt="404" />
+        </figure>
+
+        <div class="span-1-of-2 comment404">
+          <h1>I have bad news for you</h1>
+          <p>
+            The page you are looking for might be removed or is temporarily
+            unavailable
+          </p>
+          <a href="#" class="btn-home clearfix">Back to homepage</a>
         </div>
-      </section>
-    </main>
+      </main>
+    </div>
 
     <footer>
-      <div class="master-footer">
-        <p class="item">
-          dodo @
-          <a href="https://devchallenges.io/challenges" target="_blank">
-            DevChallenges.io
-          </a>
-        </p>
-      </div>
+      <p>
+        created by dodo -
+        <a href="https://devchallenges.io/challenges" target="_blank">
+          DevChallenges.io
+        </a>
+      </p>
     </footer>
   </body>
 </html>
